@@ -27,6 +27,21 @@ const createPlanet = (size, texturePath, distance) => {
     return planet;
 };
 
+// Create a ring with texture
+const createRing = (innerRadius, outerRadius, texturePath, distance) => {
+    const geometry = new THREE.RingGeometry(innerRadius, outerRadius, 64);
+    const texture = textureLoader.load(texturePath);
+    const material = new THREE.MeshBasicMaterial({ 
+        map: texture, 
+        side: THREE.DoubleSide, 
+        transparent: true 
+    });
+    const ring = new THREE.Mesh(geometry, material);
+    ring.position.x = distance;
+    ring.rotation.x = -Math.PI / 2;
+    return ring;
+};
+
 // Create the sun
 const sun = createPlanet(5, 'textures/sun.jpg', 0);
 scene.add(sun);
@@ -40,6 +55,9 @@ const jupiter = createPlanet(2.5, 'textures/jupiter.jpg', 28);
 const saturn = createPlanet(2, 'textures/saturn.jpg', 35);
 const uranus = createPlanet(1.8, 'textures/uranus.jpg', 42);
 const neptune = createPlanet(1.7, 'textures/neptune.jpg', 48);
+
+// Create Saturn's rings
+const saturnRings = createRing(2.5, 4, 'textures/saturn_rings.png', 35);
 
 // Create groups for each planet to make them rotate around the sun
 const mercuryGroup = new THREE.Group();
@@ -64,6 +82,7 @@ scene.add(jupiterGroup);
 
 const saturnGroup = new THREE.Group();
 saturnGroup.add(saturn);
+saturnGroup.add(saturnRings); // Add rings to Saturn's group
 scene.add(saturnGroup);
 
 const uranusGroup = new THREE.Group();
@@ -105,4 +124,3 @@ window.addEventListener('resize', () => {
 
 // Start the animation
 animate();
-    
