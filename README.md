@@ -1,3 +1,5 @@
+Cosmic - Solar System Simulator 3D
+
 - Scene, Camera, and Renderer Initialization:
 
 The scene, camera, and renderer are created and initialized.
