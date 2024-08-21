@@ -236,6 +236,16 @@ const planets = [
                             
 ];
 
+
+// Function to close the sidebar
+document.getElementById('closeButton').addEventListener('click', function() {
+    document.getElementById('sidebar').style.display = 'none';
+    if (currentAudio) {
+        currentAudio.pause();  // Stop playing the audio if the sidebar is closed
+    }
+});
+
+
 document.addEventListener('mousedown', onDocumentMouseDown, false);
 
 function onDocumentMouseDown(event) {

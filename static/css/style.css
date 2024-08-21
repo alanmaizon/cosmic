@@ -15,7 +15,7 @@ body {
     right: 0;
     width: 300px;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgb(0, 0, 0);
     color: white;
     padding: 20px;
     box-shadow: -2px 0 5px rgba(0, 0, 0, 0.5);
@@ -27,7 +27,7 @@ body {
     margin-top: 0;
 }
 
-h1{
+h1 {
     font-family: 'Nasa'; 
     position: absolute;
     top: 20px;
@@ -39,18 +39,35 @@ h2 {
     font-family: 'Nasa';
 }
 
+/* Close button styling */
+#closeButton {
+    display: block;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    z-index: 1000;
+}
+
+/* Table styling */
 #planetDetails {
     width: 100%;
     border-collapse: collapse;
     margin-top: 20px;
+    background-color: rgba(255, 255, 255, 0); /* Translucent background */
 }
 
 #planetDetails th, #planetDetails td {
     padding: 10px;
     text-align: left;
-    border-bottom: 1px solid #ddd;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3); /* Adjusted border color */
 }
 
 #planetDetails th {
-    background-color: #000;
+    background-color: rgba(0, 0, 0, 0); /* Translucent header background */
 }
