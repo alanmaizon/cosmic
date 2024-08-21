@@ -1,0 +1,56 @@
+@font-face {
+    font-family: 'Nasa';
+    src: url('nasa.otf');
+}
+
+body {
+    margin: 0;
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+}
+
+#sidebar {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 300px;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 20px;
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.5);
+    display: none;
+    overflow: scroll;
+}
+
+#sidebar h2 {
+    margin-top: 0;
+}
+
+h1{
+    font-family: 'Nasa'; 
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: white;
+}
+
+h2 {
+    font-family: 'Nasa';
+}
+
+#planetDetails {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+#planetDetails th, #planetDetails td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+#planetDetails th {
+    background-color: #000;
+}
