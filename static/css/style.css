@@ -18,7 +18,7 @@ body {
     background-color: rgb(0, 0, 0);
     color: white;
     padding: 20px;
-    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.5);
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.2);
     display: none;
     overflow: scroll;
 }
