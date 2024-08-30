@@ -140,7 +140,7 @@ solar-system/
 
 --
 
-## Future developments:
+## Future development plan
 
 ### 1. **Planetary Animations and Orbital Paths**
    - **Orbital Paths**: Add visual orbital paths around the Sun for each planet. This helps users understand the relative distances and motion of the planets within the solar system.
