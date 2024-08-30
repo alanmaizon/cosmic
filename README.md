@@ -137,7 +137,3 @@ solar-system/
 
 - **Performance**: Test with a higher number of objects and more complex shaders to assess performance on lower-end devices.
 - **Cross-Browser Compatibility**: Test additional browsers, especially on older versions, to ensure consistent behavior.
-
----
-
-This README and report should provide a clear overview of the project, guide users through installation and usage, and document the testing and debugging process.
