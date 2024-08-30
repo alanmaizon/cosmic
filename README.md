@@ -24,7 +24,7 @@ This project is an interactive 3D model of the solar system built with Three.js,
 1. **Clone the repository**:
    ```bash
    git clone https://github.com/alanmaizon/cosmic.git
-   cd solar-system
+   cd cosmic
    ```
 
 2. **Install Flask**:
