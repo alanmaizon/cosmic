@@ -140,7 +140,7 @@ solar-system/
 
 --
 
-## Suggestions that could further enhance its functionality, usability, and overall appeal:
+## Future developments:
 
 ### 1. **Planetary Animations and Orbital Paths**
    - **Orbital Paths**: Add visual orbital paths around the Sun for each planet. This helps users understand the relative distances and motion of the planets within the solar system.
@@ -175,7 +175,7 @@ solar-system/
    - **Sharing Options**: Provide social media sharing options, allowing users to share snapshots or interesting facts about planets directly from the app.
 
 ### 9. **Backend Enhancements**
-   - **Database Integration**: Consider integrating a database to store user preferences, quiz scores, or even dynamically fetched planetary data (e.g., from NASA APIs).
+   - **Database Integration**: Integrating a database to store user preferences, quiz scores, or even dynamically fetched planetary data (e.g., from NASA APIs).
    - **User Accounts**: Implement user accounts where users can save their progress, track their learning, and customize their experience.
 
 ### 10. **Performance Optimization**
@@ -187,5 +187,5 @@ solar-system/
    - **Keyboard Navigation**: Implement comprehensive keyboard navigation for users who rely on keyboards instead of touch or mouse input.
 
 ### 12. **Community and Collaboration**
-   - **Open Source**: Consider making the project open source to encourage community contributions. This could lead to new features, improvements, and educational content.
+   - **Open Source**: Making the project open source to encourage community contributions. This could lead to new features, improvements, and educational content.
    - **Collaborations**: Reach out to educators or planetariums who might be interested in using your project as a teaching tool or part of their exhibitions.
